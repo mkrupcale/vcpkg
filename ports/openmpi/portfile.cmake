@@ -27,7 +27,6 @@ vcpkg_configure_make(
             --with-hwloc=internal
             --with-libevent=internal
             --with-pmix=internal
-            --disable-mpi-fortran
         OPTIONS_DEBUG
             --enable-debug
 )
